@@ -10,6 +10,8 @@ def solution(arr):
 
     return answer
 
+#pop(n)은 시간 복잡도가 O(n)이라서 timeout!
+
 #arr = [1,1,3,3,0,0,1,1]
 arr = [4,4,4,3,3]
 answer = solution(arr)
